@@ -20,7 +20,7 @@ WORKDIR /app
 COPY --from=build /app/target/vediocall-0.0.1-SNAPSHOT.jar app.jar
 
 # Render provides PORT env automatically
-ENV PORT=8080
+#ENV PORT=8080
 
 EXPOSE 8080
 
